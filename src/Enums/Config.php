@@ -1,6 +1,6 @@
 <?php declare (strict_types=1);
 
-namespace PosLifestyle\DateRangeFilter\Enums;
+namespace GeniusDivision\DateRangeFilter\Enums;
 
 class Config
 {
