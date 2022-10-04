@@ -1,5 +1,5 @@
 {
-    "name": "pos-lifestyle/laravel-nova-date-range-filter",
+    "name": "geniusdivision/laravel-nova-date-range-filter",
     "description": "A Laravel Nova date range filter.",
     "keywords": [
         "laravel",
@@ -18,7 +18,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/pos-lifestyle/laravel-nova-date-range-filter/issues"
+        "issues": "https://github.com/geniusdivision/laravel-nova-date-range-filter/issues"
     },
     "repositories": [
         {
@@ -28,7 +28,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "laravel/framework": "^5.8 || ^6.0 || ^7.0 || ^8.0",
+        "laravel/framework": "^5.8 || ^6.0 || ^7.0 || ^8.0 || ^9.0",
         "laravel/nova": "^2.0 || ^3.0"
     },
     "require-dev": {
@@ -36,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "PosLifestyle\\DateRangeFilter\\": "src/"
+            "GeniusDivision\\DateRangeFilter\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "PosLifestyle\\DateRangeFilter\\FilterServiceProvider"
+                "GeniusDivision\\DateRangeFilter\\FilterServiceProvider"
             ]
         }
     },
